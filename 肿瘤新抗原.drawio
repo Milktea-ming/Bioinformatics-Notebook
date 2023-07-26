@@ -1,9 +1,151 @@
-<mxfile host="app.diagrams.net" modified="2023-07-26T09:21:38.996Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" version="21.6.5" etag="wW-ee8lNRsVcRnScLMHP" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-26T09:34:35.413Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="MhttJZkRuEhedn_3PgXI" version="21.6.5" type="github">
   <diagram name="第 1 页" id="BV2JEcZFqFt92yoEPGKr">
-    <mxGraphModel>
+    <mxGraphModel dx="989" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="G5EWqAJ_ozppIbQ28s9R-1" value="肿瘤组织DNA" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G5EWqAJ_ozppIbQ28s9R-2" value="正常细胞DNA" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G5EWqAJ_ozppIbQ28s9R-5" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Arial;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="120" as="sourcePoint" />
+            <mxPoint x="380" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G5EWqAJ_ozppIbQ28s9R-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Arial;" edge="1" parent="1" target="G5EWqAJ_ozppIbQ28s9R-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="120" as="sourcePoint" />
+            <mxPoint x="190" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G5EWqAJ_ozppIbQ28s9R-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Arial;" edge="1" parent="1" target="G5EWqAJ_ozppIbQ28s9R-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="120" as="sourcePoint" />
+            <mxPoint x="190" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G5EWqAJ_ozppIbQ28s9R-8" value="肿瘤组织与正常细胞比对结果" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="220" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G5EWqAJ_ozppIbQ28s9R-9" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Arial;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="140" as="sourcePoint" />
+            <mxPoint x="280" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="140" />
+              <mxPoint x="280" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G5EWqAJ_ozppIbQ28s9R-10" value="肿瘤细胞体细胞突变检出" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="220" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G5EWqAJ_ozppIbQ28s9R-11" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Arial;" edge="1" parent="1" source="G5EWqAJ_ozppIbQ28s9R-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="220" as="sourcePoint" />
+            <mxPoint x="279" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G5EWqAJ_ozppIbQ28s9R-12" value="过滤变异检出位点" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="220" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G5EWqAJ_ozppIbQ28s9R-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontFamily=Arial;" edge="1" parent="1" source="G5EWqAJ_ozppIbQ28s9R-12" target="G5EWqAJ_ozppIbQ28s9R-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="289.41" y="310" as="sourcePoint" />
+            <mxPoint x="289.41" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G5EWqAJ_ozppIbQ28s9R-14" value="对变异位点进行氨基酸及转录本注释" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="220" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G5EWqAJ_ozppIbQ28s9R-15" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontFamily=Arial;" edge="1" parent="1" source="G5EWqAJ_ozppIbQ28s9R-14" target="G5EWqAJ_ozppIbQ28s9R-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="410" as="sourcePoint" />
+            <mxPoint x="290" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G5EWqAJ_ozppIbQ28s9R-17" value="新抗原预测" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="220" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G5EWqAJ_ozppIbQ28s9R-18" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontFamily=Arial;" edge="1" parent="1" source="G5EWqAJ_ozppIbQ28s9R-17" target="G5EWqAJ_ozppIbQ28s9R-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="500" as="sourcePoint" />
+            <mxPoint x="280" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G5EWqAJ_ozppIbQ28s9R-19" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Arial;" edge="1" parent="1" source="G5EWqAJ_ozppIbQ28s9R-17" target="G5EWqAJ_ozppIbQ28s9R-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="640" as="sourcePoint" />
+            <mxPoint x="420" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G5EWqAJ_ozppIbQ28s9R-20" value="候选新抗原多肽" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="500" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G5EWqAJ_ozppIbQ28s9R-21" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Arial;" edge="1" parent="1" source="G5EWqAJ_ozppIbQ28s9R-20" target="G5EWqAJ_ozppIbQ28s9R-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="590" as="sourcePoint" />
+            <mxPoint x="560" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G5EWqAJ_ozppIbQ28s9R-22" value="表达结果" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="500" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G5EWqAJ_ozppIbQ28s9R-23" value="肿瘤组织RNA" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="500" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G5EWqAJ_ozppIbQ28s9R-24" value="肿瘤组织RNA比对结果" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="500" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G5EWqAJ_ozppIbQ28s9R-25" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Arial;" edge="1" parent="1" source="G5EWqAJ_ozppIbQ28s9R-24" target="G5EWqAJ_ozppIbQ28s9R-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="559.4100000000001" y="210" as="sourcePoint" />
+            <mxPoint x="559.4100000000001" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G5EWqAJ_ozppIbQ28s9R-26" value="差异基因表达分析" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="500" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G5EWqAJ_ozppIbQ28s9R-27" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontFamily=Arial;" edge="1" parent="1" source="G5EWqAJ_ozppIbQ28s9R-26" target="G5EWqAJ_ozppIbQ28s9R-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="569.4100000000001" y="220" as="sourcePoint" />
+            <mxPoint x="569.4100000000001" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G5EWqAJ_ozppIbQ28s9R-28" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Arial;" edge="1" parent="1" source="G5EWqAJ_ozppIbQ28s9R-22" target="G5EWqAJ_ozppIbQ28s9R-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="410" as="sourcePoint" />
+            <mxPoint x="280" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G5EWqAJ_ozppIbQ28s9R-29" value="HLA-I类及HLA-II类等位基因分型" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="360" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G5EWqAJ_ozppIbQ28s9R-31" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Arial;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="460" as="sourcePoint" />
+            <mxPoint x="280" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G5EWqAJ_ozppIbQ28s9R-32" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Arial;" edge="1" parent="1" source="G5EWqAJ_ozppIbQ28s9R-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="580" as="sourcePoint" />
+            <mxPoint x="420" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G5EWqAJ_ozppIbQ28s9R-33" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.833;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Arial;" edge="1" parent="1" source="G5EWqAJ_ozppIbQ28s9R-2" target="G5EWqAJ_ozppIbQ28s9R-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="100" as="sourcePoint" />
+            <mxPoint x="450" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
